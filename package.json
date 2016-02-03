@@ -1,0 +1,14 @@
+{
+  "name": "ttable_gen",
+  "version": "0.0.1",
+  "description": "Truth Table generator",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chrisvm <christian.velez5@upr.edu>",
+  "license": "ISC",
+  "dependencies": {
+    "jison": "^0.4.17"
+  }
+}
