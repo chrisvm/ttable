@@ -9,6 +9,7 @@
   "author": "chrisvm <christian.velez5@upr.edu>",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.1.2",
     "jison": "^0.4.17"
   }
 }
