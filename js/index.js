@@ -3,8 +3,6 @@ var colors = require('colors'),
     parser = require(path.join(__dirname, "parsing/parser"));
 
 
-
-
 function main() {
     if (parser == null) {
         console.log("error opening parser");
