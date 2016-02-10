@@ -24,7 +24,10 @@
 stmt
     : statement
         {
-            return $1;
+            var ret = {};
+            ret.scope = yy.scope;
+            ret.ast = $1;
+            return ret;
         }
     ;
 
@@ -69,6 +72,7 @@ statement
         }
     | 'VAR'
         {
+            yy.scope.addId($1);
             $$ = {
                 "type": "Variable",
                 "val": $1
